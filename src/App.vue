@@ -1,11 +1,12 @@
 <template>
   <div id="app">
-    <HelloWorld/>
+    <!-- <HelloWorld/>
     <Class/>
     <Conditional/>
     <For/>
     <Event/>
-    <Input/>
+    <Input/> -->
+    <Product/>
   </div>
 </template>
 
@@ -16,6 +17,7 @@ import Conditional from './components/Conditional'
 import For from './components/For'
 import Event from './components/Event'
 import Input from './components/Input'
+import Product from './components/Props/Product'
 
 export default {
   name: 'App',
@@ -25,7 +27,8 @@ export default {
     Conditional,
     For,
     Event,
-    Input
+    Input,
+    Product
   }
 }
 </script>
